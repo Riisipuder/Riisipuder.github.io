@@ -4,7 +4,40 @@ body {
     padding: 0;
 }
 
-/* Ülejäänud stiilid jäävad samaks */
+.custom-header {
+    background-color: #F4D06F;
+    width: 1440px;
+    height: 166px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.custom-menu {
+    background-color: #7B7491;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 92px;
+    left: 497px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
 
 .game-profile {
     padding: 20px;
@@ -34,5 +67,9 @@ body {
     margin-top: 10px;
 }
 
-/* Ülejäänud stiilid jäävad samaks */
-
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 10px 20px;
+}
