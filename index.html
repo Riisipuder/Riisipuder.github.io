@@ -1,60 +1,64 @@
 <!DOCTYPE html>
-<html lang="et">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minu Veebileht</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Mänguringlus</title>
 </head>
 <body>
- 
-    <h1>Tere tulemast Minu Veebilehele!</h1>
 
-    <p>Minu nimi on Raimond ja see on minu loodud veebileht. </p>
+<header>
+    <div class="header-left">
+        <h1>Mänguringlus</h1>
+    </div>
+    <div class="header-right">
+        <img src="message-icon.png" alt="Sõnumite ikoon">
+        <img src="profile-icon.png" alt="Profiili ikoon">
+    </div>
+</header>
 
-    
-    <p>Teadupärast venelased oskavad häid pannkooke teha. Oma ideaalsete pannkookide otsingute raames katsetasin täna hommikul selliseid pannkooke, mugandades retsepti venekeelsest ajakirjast “Gastronom”. Ma ei ole paksu lödi pehme pannkoogi usku kohe üldse mitte ja need pannukad kukkusid välja täpselt vastupidised: õhukesed, krõbedad,meile väga meeldisid.
-u. 15 tk.
-    <p>200 g jahu 
-    0,5 l piima 
-    2 muna 
-    20 g võid 
-    1 tl suhkrut 
-    näpuotsaga soola 
-    õli praadimiseks 
-    </p>
+<nav>
+    <ul class="nav-left">
+        <li><a href="#">Avaleht</a></li>
+        <li><a href="#">Saadaval</a></li>
+        <li><a href="#">Soovitakse</a></li>
+    </ul>
+    <ul class="nav-right">
+        <li><a href="#">Minu soovid</a></li>
+        <li><a href="#">Minu pakkumised</a></li>
+    </ul>
+</nav>
 
+<section class="game-profile">
+    <h2>Mängu profiil</h2>
+    <img src="game-image.jpg" alt="Mängu pilt">
+    <p>Seda toodet pakub: <span>Inimese Nimi</span></p>
+    <p>Lisatud: <span>12. jaanuar 2024</span></p>
+    <button class="start-chat">Alusta vestlust</button>
+    <div class="game-details">
+        <div class="game-info">
+            <h3>Mängu Nimi</h3>
+            <p>Mängu kirjeldus siin...</p>
+            <div class="icons">
+                <p>Mängutüüp: <span>Ikoon</span></p>
+                <p>Mängijate arv: <span>Ikoon</span></p>
+                <p>Vanus: <span>Ikoon</span></p>
+            </div>
+        </div>
+        <div class="game-price">
+            <p>Hind: <span>XX EUR</span></p>
+            <button class="buy">Osta</button>
+            <button class="trade">Tee vahetuspakkumine</button>
+        </div>
+    </div>
+</section>
 
-
-
-Vala jahu suurde kaussi kuhja, sega soola ja suhkruga. Tee jahu keskele süvend. Sinna vala lahtiklopitud munad, mis on segatud piimaga. Vala segu joana, samal ajal teise käega pidevalt jahuga segades. Kõige lõpuks sega hulka sulatatud või.
-
-Prae õlitatud kuumal pannil (parim variant on malmpann,aga muud on samuti OK) suured hästi õhukesed pannkoogid.</p>
-
-    <h2>Minu Tabel</h2>
-    <table border="1">
-        <tr>
-            <th>Tõug</th>
-            <th>Nimi</th>
-        </tr>
-        <tr>
-            <td>Saksa-lambakoer</td>
-            <td>Maki</td></td>
-        </tr>
-        <tr>
-            <td>Bengali kass</td>
-            <td>Muki</td>
-        </tr>
-    </table>
-
-    <h3>Pilt pannkoogist</h3>
-    <img src="https://s3-eu-west-1.amazonaws.com/balticsimages/images/320x320/80fece937f457f95e0db1f6417288481.png" alt="Pannkook">
-
-    <p>Soovitan külastada ka <a href="https://taltech.ee/">TalTechi kodulehte</a> rohkema informatsiooni saamiseks.</p>
-
-    <footer>
-        <p>Minu Tudengikood:  233562IAIB </p>
-    </footer>
+<footer>
+    <div class="footer-right">
+        <p>Kasutusjuhend | Reeglid | Kontakt</p>
+    </div>
+</footer>
 
 </body>
 </html>
