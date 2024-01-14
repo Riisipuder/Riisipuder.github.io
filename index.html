@@ -4,59 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono:wght@400;700&display=swap" rel="stylesheet">
     <title>Mänguringlus</title>
 </head>
 <body>
 
-<header class="custom-header">
-    <div class="header-left">
-        <h1>Mänguringlus</h1>
-    </div>
-    <div class="header-right">
-        <img src="message-icon.png" alt="Sõnumite ikoon">
-        <img src="profile-icon.png" alt="Profiili ikoon">
-    </div>
-</header>
-
-<nav class="custom-menu">
-    <ul class="nav-left">
-        <li><a href="#">Avaleht</a></li>
-        <li><a href="#">Saadaval</a></li>
-        <li><a href="#">Soovitakse</a></li>
-    </ul>
-    <ul class="nav-right">
-        <li><a href="#">Minu soovid</a></li>
-        <li><a href="#">Minu pakkumised</a></li>
-    </ul>
-</nav>
-
-<section class="game-profile">
-    <h2>Mängu profiil</h2>
-    <div class="profile-details">
-        <img src="game-image.jpg" alt="Mängu pilt">
-        <div class="text-details">
-            <p class="provider">Seda toodet pakub: <span>Inimese Nimi</span></p>
-            <p class="added-date">Lisatud: <span>12. jaanuar 2024</span></p>
-            <h3>Mängu Nimi</h3>
-            <p class="game-description">Mängu kirjeldus siin...</p>
+<div class="container">
+    <div class="header">
+        <div class="logo">Mänguringlus</div>
+        <div class="icons">
+            <div class="message-icon"></div>
+            <div class="profile-icon"></div>
         </div>
-        <button class="start-chat">Alusta vestlust</button>
-    </div>
-    <div class="game-details">
-        <div class="game-info">
-            <!-- Ülejäänud mänguinfo jääb samaks -->
-        </div>
-        <div class="game-price">
-            <!-- Ülejäänud mänguhinna info jääb samaks -->
+        <div class="menu">
+            <div class="menu-item">Avaleht</div>
+            <div class="menu-item">Saadaval</div>
+            <div class="menu-item">Soovitakse</div>
+            <div class="menu-item right">Minu soovid</div>
+            <div class="menu-item right">Minu pakkumised</div>
         </div>
     </div>
-</section>
-
-<footer>
-    <div class="footer-right">
-        <p>Kasutusjuhend | Reeglid | Kontakt</p>
+    <div class="content">
+        <div class="game-profile">
+            <div class="game-info">
+                <div class="game-title">“Catan”</div>
+                <div class="game-description">Lauamäng "Catan" on maailmakuulus strateegiamäng, kus mängijad hangivad ressursse, et arendada oma tsivilisatsiooni ja koguda mängu võitmiseks võidupunkte.</div>
+                <div class="game-icons">
+                    <div class="icon">Mäng tüüp</div>
+                    <div class="icon">Mängijate arv</div>
+                    <div class="icon">Vanus</div>
+                </div>
+            </div>
+            <div class="game-details">
+                <div class="price">Hind: 30,00€</div>
+                <div class="buy-button">Osta</div>
+                <div class="trade-button">Tee vahetuspakkumine</div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-item">Kasutusjuhend</div>
+            <div class="footer-item">Reeglid</div>
+            <div class="footer-item">Kontakt</div>
+        </div>
     </div>
-</footer>
+</div>
 
 </body>
 </html>
