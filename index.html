@@ -13,8 +13,7 @@
     <div class="header">
         <div class="logo">Mänguringlus</div>
         <div class="icons">
-            <div class="message-icon"></div>
-            <div class="profile-icon"></div>
+            <div class="profile-icon" onclick="goToProfilePage()"></div>
         </div>
         <div class="menu">
             <div class="menu-item">Avaleht</div>
@@ -28,17 +27,22 @@
         <div class="game-profile">
             <div class="game-info">
                 <div class="game-title">“Catan”</div>
-                <div class="game-description">Lauamäng "Catan" on maailmakuulus strateegiamäng, kus mängijad hangivad ressursse, et arendada oma tsivilisatsiooni ja koguda mängu võitmiseks võidupunkte.</div>
-                <div class="game-icons">
-                    <div class="icon">Mäng tüüp</div>
-                    <div class="icon">Mängijate arv</div>
-                    <div class="icon">Vanus</div>
+                <div class="game-description">Lauamäng "Catan" on maailmakuulus strateegiamäng, kus mängijad hangivad ressursse, et arendada oma tsivilisatsiooni ja koguda mängu võitmiseks võidupunkte.<br/>
+                    <div class="game-details">
+                        <div class="oval-box">
+                            <div class="oval-content">Mäng tüüp</div>
+                        </div>
+                        <div class="oval-box">
+                            <div class="oval-content">Mängijate arv</div>
+                        </div>
+                        <div class="oval-box">
+                            <div class="oval-content">Vanus</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="game-details">
-                <div class="price">Hind: 30,00€</div>
-                <div class="buy-button">Osta</div>
-                <div class="trade-button">Tee vahetuspakkumine</div>
+            <div class="game-image">
+                <!-- Siia saate lisada mängu pildi -->
             </div>
         </div>
         <div class="footer">
@@ -48,6 +52,13 @@
         </div>
     </div>
 </div>
+
+<script>
+    function goToProfilePage() {
+        // Lisa siia oma profiili lehe URL
+        window.location.href = 'minu_profiil.html';
+    }
+</script>
 
 </body>
 </html>
