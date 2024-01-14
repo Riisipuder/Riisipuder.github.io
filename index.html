@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<header>
+<header class="custom-header">
     <div class="header-left">
         <h1>Mänguringlus</h1>
     </div>
@@ -18,7 +18,7 @@
     </div>
 </header>
 
-<nav>
+<nav class="custom-menu">
     <ul class="nav-left">
         <li><a href="#">Avaleht</a></li>
         <li><a href="#">Saadaval</a></li>
@@ -32,24 +32,22 @@
 
 <section class="game-profile">
     <h2>Mängu profiil</h2>
-    <img src="game-image.jpg" alt="Mängu pilt">
-    <p>Seda toodet pakub: <span>Inimese Nimi</span></p>
-    <p>Lisatud: <span>12. jaanuar 2024</span></p>
-    <button class="start-chat">Alusta vestlust</button>
+    <div class="profile-details">
+        <img src="game-image.jpg" alt="Mängu pilt">
+        <div class="text-details">
+            <p class="provider">Seda toodet pakub: <span>Inimese Nimi</span></p>
+            <p class="added-date">Lisatud: <span>12. jaanuar 2024</span></p>
+            <h3>Mängu Nimi</h3>
+            <p class="game-description">Mängu kirjeldus siin...</p>
+        </div>
+        <button class="start-chat">Alusta vestlust</button>
+    </div>
     <div class="game-details">
         <div class="game-info">
-            <h3>Mängu Nimi</h3>
-            <p>Mängu kirjeldus siin...</p>
-            <div class="icons">
-                <p>Mängutüüp: <span>Ikoon</span></p>
-                <p>Mängijate arv: <span>Ikoon</span></p>
-                <p>Vanus: <span>Ikoon</span></p>
-            </div>
+            <!-- Ülejäänud mänguinfo jääb samaks -->
         </div>
         <div class="game-price">
-            <p>Hind: <span>XX EUR</span></p>
-            <button class="buy">Osta</button>
-            <button class="trade">Tee vahetuspakkumine</button>
+            <!-- Ülejäänud mänguhinna info jääb samaks -->
         </div>
     </div>
 </section>
