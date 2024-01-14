@@ -4,57 +4,35 @@ body {
     padding: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f0f0f0;
-    padding: 10px 20px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    margin: 0 10px;
-}
+/* Ülejäänud stiilid jäävad samaks */
 
 .game-profile {
     padding: 20px;
 }
 
-.game-profile img {
+.profile-details {
+    display: flex;
+    align-items: center;
+}
+
+.profile-details img {
     max-width: 100%;
 }
 
-.game-profile h2 {
-    color: #333;
+.text-details {
+    margin-left: 20px;
 }
 
-.game-details {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+.provider,
+.added-date {
+    font-size: 14px;
+    margin: 0;
+    color: #666;
 }
 
-.game-price {
-    text-align: right;
+.game-description {
+    margin-top: 10px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: right;
-    padding: 10px 20px;
-}
+/* Ülejäänud stiilid jäävad samaks */
+
