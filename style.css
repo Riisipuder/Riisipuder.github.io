@@ -33,10 +33,6 @@ header nav ul {
     gap: 15px;
 }
 
-header nav ul li {
-    display: inline;
-}
-
 header nav ul li a {
     color: white;
     text-decoration: none;
@@ -66,6 +62,15 @@ main .content {
     line-height: 1.6;
 }
 
+.content ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.content ul li {
+    margin-bottom: 5px;
+}
+
 .content .button {
     display: inline-block;
     background-color: #4A90E2;
@@ -78,6 +83,13 @@ main .content {
 
 .content .button:hover {
     background-color: #357ABD;
+}
+
+.content .photo {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 footer {
