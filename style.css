@@ -56,7 +56,7 @@ main .content {
 
 main .with-background {
     position: relative;
-    background-image: url('Fotod/Foto1.png');
+    background-image: url('https://cdn.prod.website-files.com/60bcc42b3b7575a3c4206361/6418b18abd9dbc1928aa7482_DSCF6284-p-500.jpg');
     background-size: cover;
     background-position: center;
     color: white;
