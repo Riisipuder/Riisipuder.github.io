@@ -1,123 +1,75 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    color: #3D3D3D;
-    background-color: #FDF6E3;
+/* "Parim pärast uusarendust" sektsioon */
+.section-renovation {
+  display: flex;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
 }
 
-header {
-    background-color: #8B5E3C;
-    color: white;
-    padding: 20px 0;
+.image-container img {
+  max-width: 100%;
+  border-radius: 8px;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+.text-container {
+  margin-left: 20px;
+  max-width: 600px;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2rem;
-    font-weight: bold;
+.section-renovation h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
 }
 
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 15px;
+.section-renovation ul {
+  list-style: disc inside;
+  margin: 0;
+  padding: 0;
 }
 
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    transition: color 0.3s;
+.section-renovation li {
+  margin-bottom: 10px;
+  font-size: 1rem;
 }
 
-header nav ul li a:hover {
-    color: #FFD700;
+/* "Scandi.ee korterite eelised" sektsioon */
+.section-benefits {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fef6ee;
 }
 
-main .content {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.section-benefits h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
 }
 
-main .with-background {
-    position: relative;
-    background-image: url('https://cdn.prod.website-files.com/60bcc42b3b7575a3c4206361/6418b18abd9dbc1928aa7482_DSCF6284-p-500.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 60px 20px;
-    border-radius: 0;
+.benefits-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-main .with-background .text-overlay {
-    background: rgba(139, 94, 60, 0.8);
-    padding: 20px;
-    border-radius: 10px;
+.benefit {
+  max-width: 300px;
+  text-align: left;
 }
 
-.content h2 {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: #8B5E3C;
+.benefit img {
+  display: block;
+  margin: 0 auto 20px;
 }
 
-.content p {
-    line-height: 1.8;
+.benefit h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
-.content ul {
-    margin-top: 15px;
-    padding-left: 20px;
-    color: #8B5E3C;
+.benefit ul {
+  list-style: disc inside;
 }
 
-.content ul li {
-    margin-bottom: 5px;
-}
-
-.content .button {
-    display: inline-block;
-    background-color: #8B5E3C;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.content .button:hover {
-    background-color: #A67C52;
-}
-
-.content .photo {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
-    border-radius: 10px;
-}
-
-footer {
-    background-color: #8B5E3C;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer p {
-    margin: 0;
+.benefit li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
 }
